@@ -95,6 +95,9 @@ h2 a:focus {
 .image {
     display: block;
     border-radius: 10px;
+    height: 200px;
+    object-fit: cover;
+    max-width: 100%;
 }
 
 .p__date {
@@ -153,12 +156,6 @@ h2 a:focus {
     .p__text {
         font-size: 14px;
     }
-    
-    .image {
-        height: 200px;
-        object-fit: cover;
-        max-width: 100%;
-    }
 }
 
 @media (min-width: 0px) and (max-width: 375px) {
@@ -167,10 +164,4 @@ h2 a:focus {
         height: 501px;
         padding: 20px;
     }  
-
-    .image {
-        height: 200px;
-        object-fit: cover;
-        max-width: 100%;
-    }
 }
